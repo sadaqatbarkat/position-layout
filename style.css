@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#parent{
+	width: auto;
+	height: 2000px;
+	background-color: palevioletred;
+}
+	
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(252, 252, 79);
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	border: 2px solid black;
+}
+p{
+	padding: 10px;
+	padding-top: 15px;
+}
+
+
+
+button{
+	padding: 18px;
+	position: absolute;
+	right: 15px;
+	border: 2px solid black;
+	background-color: rgb(247, 247, 74);
+	
+
+}
+
+#white{
+	width: 90%;
+	height: 3000px;
+	border: 3px solid white;
+	margin-left: 60px;
+	position: absolute;
+	top: 45px;
+	
+	
+}
+#blue{
+	width: 97%;
+	height: 550px;
+	background-color: blue;
+	border: 4px solid black;
+	position: absolute;
+	margin-left:15px ;
+}
+#white2{
+	width: 97%;
+	height:500px;
+	background-color: white;
+	position: absolute;
+	margin-left:15px ;
+	border: 4px solid black;
+	margin-top: 15px;
+}
+#box1{
+	width: 97%;
+	height: 150px;
+	background-color: rgb(248, 248, 70);
+	border: 2px solid black;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 10px;
+	display: inline-block;
+	
+}
+
+#box2{
+	width: 97%;
+	height: 70px;
+	background-color: green;
+	border: 2px solid black;
+	color: white;
+	position: sticky;
+	top:44px;
+	
+	z-index: 1;
+	
+	margin-top: 170px;
+	margin-left: 15px;
+	
+	
+}
+#box3{
+	width: 97%;
+	height: 90px;
+	background-color:rgb(252, 252, 55);
+	border: 2px solid black;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 10px;
+	position: absolute;
+
+	
+
+	
+
+	
+	
+}
+#box4{
+	width: 97%;
+	height: 90px;
+	background-color:rgb(245, 245, 55);
+	border: 2px solid black;
+	position: absolute;
+	top: 370px;
+	left: 15px;
+
+
+	
+
+	
+
+	
+	
+}
